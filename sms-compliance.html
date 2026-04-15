@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Compliance & Opt-In | CrateLuv</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: #f4f7f9; }
+        .container { background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { color: #e74c3c; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { font-size: 1.2rem; margin-top: 30px; color: #555; }
+        .mockup-container { background: #fff; border: 8px solid #333; border-radius: 30px; width: 300px; margin: 20px auto; padding: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .app-header { text-align: center; font-weight: bold; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        .input-box { border: 1px solid #ddd; border-radius: 5px; padding: 10px; margin-bottom: 15px; background: #fafafa; font-size: 0.9rem; color: #999; }
+        .toggle-row { display: flex; justify-content: space-between; align-items: center; padding: 15px 0; border-top: 1px solid #eee; }
+        .toggle-off { width: 40px; height: 20px; background: #ccc; border-radius: 10px; position: relative; }
+        .toggle-off::after { content: ''; position: absolute; left: 2px; top: 2px; width: 16px; height: 16px; background: #fff; border-radius: 50%; }
+        .legal-block { background: #f9f9f9; border-left: 4px solid #e74c3c; padding: 15px; font-size: 0.8rem; color: #666; margin-top: 10px; }
+        .status-badge { display: inline-block; background: #e8f5e9; color: #2e7d32; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; margin-bottom: 20px; }
+        .footer-links { margin-top: 40px; font-size: 0.9rem; text-align: center; border-top: 1px solid #eee; padding-top: 20px; }
+        .footer-links a { color: #e74c3c; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="status-badge">10DLC COMPLIANCE VERIFICATION PAGE</div>
+    <h1>SMS Opt-In Workflow</h1>
+    <p>This page demonstrates the 10DLC compliant opt-in process for the <strong>CrateLuv</strong> pet safety application.</p>
+
+    <h2>1. Non-Mandatory Opt-In Demonstration</h2>
+    <p>In accordance with carrier requirements, CrateLuv utilizes a <strong>voluntary opt-in</strong> mechanism. Users are not forced to receive SMS messages to use the platform. The SMS toggle is unchecked by default.</p>
+
+    <div class="mockup-container">
+        <div class="app-header">Add Emergency Contact</div>
+        <div style="font-size: 0.8rem; margin-bottom: 5px;">Contact Name</div>
+        <div class="input-box">Neighbor Bob</div>
+        
+        <div style="font-size: 0.8rem; margin-bottom: 5px;">Mobile Number *</div>
+        <div class="input-box">+1 (555) 000-0000</div>
+
+        <div class="toggle-row">
+            <div style="font-size: 0.9rem; font-weight: bold;">Enable SMS Alerts</div>
+            <div class="toggle-off"></div>
+        </div>
+        <div style="font-size: 0.7rem; color: #888; margin-top: -10px; margin-bottom: 10px;">
+            Optional. Unchecked by default.
+        </div>
+
+        <div class="legal-block">
+            By opting in, you agree to receive automated safety text messages from CrateLuv. Consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Reply STOP to cancel, HELP for help.
+        </div>
+        
+        <div style="background: #e74c3c; color: #fff; text-align: center; padding: 12px; border-radius: 8px; margin-top: 15px; font-weight: bold; font-size: 0.9rem;">
+            Save Contact
+        </div>
+    </div>
+
+    <h2>2. Compliance Language</h2>
+    <p>The following disclosure is presented at every point of phone number collection:</p>
+    <div class="legal-block" style="font-size: 1rem;">
+        "By providing your phone number, you agree to receive text messages from CrateLuv. Message and data rates may apply. Message frequency varies. Reply STOP to cancel, HELP for help. View our Privacy Policy and Terms of Service."
+    </div>
+
+    <h2>3. Data Protection</h2>
+    <p>CrateLuv maintains a strict policy regarding originator data. <strong>No mobile information will be shared with third parties/affiliates for marketing/promotional purposes.</strong> All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.</p>
+
+    <div class="footer-links">
+        <a href="/privacy-policy">Privacy Policy</a> | 
+        <a href="/terms">Terms of Service</a> | 
+        <a href="/">Home</a>
+    </div>
+</div>
+
+</body>
+</html>
